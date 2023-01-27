@@ -1,0 +1,29 @@
+@import "/src/scss/variable";
+// $desktop-medium: 1440px;
+// $desktop-small: 1140px;
+// $tablet: 900px;
+// $mobile: 600px;
+// $mobile-medium: 476px;
+// $mobile-small: 340px;
+
+@media (max-width: $mobile){
+  .section-header{
+    .nav{
+      display: none;
+    }
+    .menu-wrap{
+      display: block;
+    }
+  }
+  .section-home{
+    .main-content{
+      margin-top: 40px;
+    }
+  }
+  .section-contact{
+    .wrapper{
+      justify-content: center;
+
+    }
+  }
+}

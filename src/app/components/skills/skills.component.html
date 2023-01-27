@@ -1,0 +1,28 @@
+
+<section class="section-skills">
+  <main class="main">
+    <div class="container">
+      <div class="skill-title"><h1>Skills</h1></div>
+    <div class="skill-card-container">
+      <div class="skill-card" *ngFor="let item of card">
+        <div class="card-img"><img [src]="item.icon" alt="{{item.icon}}"></div>
+        <div class="card-title">{{item.title}}</div>
+        <div class="card-info">{{item.info}}</div>
+        <div class="card-tech">
+          <div class="tech">{{item.tech1}}</div>
+          <div class="tech">{{item.tech2}}</div>
+          <div class="tech">{{item.tech3}}</div>
+          <div class="tech">{{item.tech4}}</div>
+          <div class="tech">{{item.tech5}}</div>
+          <div class="tech">{{item.tech6}}</div>
+          <div class="tech">{{item.tech7}}</div>
+          <div class="tech">{{item.tech8}}</div>
+          <div class="tech">{{item.tech9}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="skill-button"><a class="btn" href="https://drive.google.com/drive/u/0/folders/1At7e2tS7_2i4oSaMyQNlYNwaJfr2AGXO" target="_blank">My CV</a></div>
+    </div>
+  </main>
+</section>
+

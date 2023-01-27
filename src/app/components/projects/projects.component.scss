@@ -1,0 +1,56 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+.project-title{
+  padding: 50px 0;
+  text-align: center;
+}
+.project-card {
+  display: none;
+
+}
+.project-card.image-active{
+  display: block;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  .card-images{
+    max-width: 500px;
+    img{
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 1px 5px 5px $gray-color;
+    }
+  }
+}
+.card-info-container{
+  padding: 25px;
+  box-shadow: 1px 5px 5px $gray-color;
+  border-radius: 10px;
+  text-align: center;
+  .info-title{
+    font-weight: bold;
+  }
+  .info-text{
+    margin: 25px 0;
+  }
+  .info-link{
+   display: flex;
+   gap: 15px;
+  }
+
+}
+
+.btn-carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0 100px;
+  gap: 15px;
+  border-radius: 50%;
+
+}

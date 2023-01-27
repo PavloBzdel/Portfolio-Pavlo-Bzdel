@@ -1,0 +1,36 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+.course-title{
+  text-align: center;
+  padding: 50px 0;
+}
+.course-card {
+  display: none;
+
+}
+.course-card.image-active{
+  display: block;
+}
+.card-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px $gray-color;
+  }
+}
+.card-text{
+  text-align: center;
+  margin: 50px 0;
+  font-weight: bold;
+}
+.btn-carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0 0 50px;
+}

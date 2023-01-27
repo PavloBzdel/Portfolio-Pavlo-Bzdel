@@ -1,0 +1,40 @@
+@import "/src/scss/variable";
+@import "/src/scss/media";
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: solid 1px $font-color;
+}
+.footer-item{
+  text-align: center;
+  margin: 20px 0;
+}
+h1{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+p, .footer-copi{
+  font-size: 13px;
+}
+.social-icon{
+  width: 100px;
+  display: flex;
+  gap: 15px;
+
+    .icon{
+      transition: transform 0.3s ease 0s;
+      &:hover{
+        transform: translateY(-8px);
+      }
+
+  }
+  a{
+    img{
+      width: 100%;
+    }
+  }
+}
+

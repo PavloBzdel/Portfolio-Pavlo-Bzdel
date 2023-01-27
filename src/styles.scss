@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import "/src/scss/variable";
+@import "/src/scss/media";
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+p, h1{
+  margin: 0;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 30px;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+section{
+  background-color: $background-color;
+}
