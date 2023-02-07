@@ -8,6 +8,13 @@ export interface projectListing{
 
 export const card: projectListing[] =[
   {
+    images: 'assets/images/project/restaurant.png',
+    title: 'Grape Restaurant',
+    info: 'Responsive design , Angular , Scss',
+    url: 'https://pavlobzdel.github.io/Grape-Restaurant/',
+    urlGit: 'https://github.com/PavloBzdel/Grape-Restaurant',
+  },
+  {
     images: 'assets/images/project/freebie.png',
     title: 'Freebie Agency Landing',
     info: 'Responsive design , Angular , Scss',
