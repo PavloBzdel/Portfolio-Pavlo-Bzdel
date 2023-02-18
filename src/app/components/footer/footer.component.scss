@@ -1,6 +1,9 @@
 @import "/src/scss/variable";
 @import "/src/scss/media";
 
+.section-footer{
+  padding: 30px 0;
+}
 .footer-info{
   display: flex;
   justify-content: space-between;
